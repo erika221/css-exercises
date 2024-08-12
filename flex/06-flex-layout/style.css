@@ -23,4 +23,52 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  flex: 1;
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: lightgray;
+ 
+}
+
+.content {
+text-align: center;
+display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.content > * {
+  padding-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
 }
